@@ -1,0 +1,35 @@
+.pagination {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    margin: 0 0.5rem;
+    font-size: 12px;
+    line-height: 1;
+
+    &.current,
+    a {
+      background: $color-background;
+      display: block;
+      text-decoration: none;
+      color: $color-body-text;
+      padding: 1rem 1.25rem;
+      transition: all 0.15s ease-out;
+    }
+
+    &.current {
+      font-weight: 800;
+      background: rgb(122, 123, 124);
+      color: white;
+    }
+
+    a:hover,
+    a:focus {
+      background: rgb(122, 123, 124);
+      color: white;
+      outline: 0;
+    }
+  }
+}
