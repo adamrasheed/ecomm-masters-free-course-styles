@@ -13,3 +13,15 @@ body,
 html {
   height: 100%;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+#MainContent {
+  flex: 1;
+}
